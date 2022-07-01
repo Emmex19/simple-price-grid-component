@@ -1,0 +1,178 @@
+html {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.singlepricegrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 648px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.community {
+    background-color: white;
+    padding: 15px 40px;
+}
+
+h1.join {
+    font-size: 1.5rem;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+span.hastlefree {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+p.library {
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.subscription {
+    display: flex;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 200;
+    width: 100%;
+}
+
+.price {
+    width: 50%;
+    padding: 15px 40px;
+}
+
+.sub {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.monthly {
+    display: flex;
+    align-items: center;
+}
+
+.monthly span {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.whyus {
+    background-color: hsl(179, 72%, 44%);
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+p.full {
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.whyus p {
+    line-height: 1.3;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 12px 0px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: hsl(71, 85%, 68%);
+    padding: 8px 0px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 680px) {
+    .singlepricegrid {
+        max-width: 324px;
+        border-radius: 5px;
+    }
+
+    .community {
+        padding: 15px 25px;
+    }
+
+    h1.join {
+        font-size: 1.3rem;
+    }
+
+    span.hastlefree {
+        font-size: 1rem;
+    }
+
+    p.library {
+        line-height: 1.6;
+        font-size: 0.9rem;
+    }
+
+    .subscription {
+        flex-direction: column;
+        font-size: 0.7rem;
+    }
+
+    .price {
+        width: 100%;
+        padding: 15px 25px;
+    }
+
+    .monthly span {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    p.full {
+        font-size: 0.9rem;
+    }
+
+    .whyus p {
+        line-height: 1.3;
+    }
+
+    button {
+        width: 85%;
+        font-size: 0.8rem;
+    }
+}
